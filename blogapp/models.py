@@ -47,6 +47,3 @@ class Post(models.Model):
                                                           self.slug])
 
 
-posts = Post.objects.filter(status='published')
-p_post = Post.published.all()
-
